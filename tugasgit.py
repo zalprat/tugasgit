@@ -53,6 +53,6 @@ for data in data_panen:
     jagung = data_panen[data]['hasil_panen']['jagung']
     
     if padi > 1300 or jagung < 800:
-        print(f"{data_panen[data]['hasil_panen']} memerlukan perhatian khusus")
+        print(f"{data_panen[data]['hasil_panen']} lokasi ini memerlukan perhatian khusus")
     else:
-        print("lokasi dalam kondisi baik")
+        print("lokasi dalam kondisi baik ")
